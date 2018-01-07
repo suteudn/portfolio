@@ -1,0 +1,824 @@
+body, html {
+    height: 100%;
+}
+body{
+      font-family: 'Coves', sans-serif;
+      background-color: white;
+      margin:0;
+      font-size:100%;
+    
+}
+
+@media all and (max-width:760px){
+/*BURGER MENU*/
+.nav{
+    background-color: #131020;
+    margin:auto;
+}
+  input {
+          display: none;
+      }
+label {
+          color:white;
+          cursor: pointer;
+          margin:auto;
+      }
+nav{      
+          background-color:#131020;
+          max-height:0;
+          overflow: hidden;  
+      }
+    input:checked ~ nav{ 
+           max-height: 100px;}
+    ul {
+        padding:0;
+    }
+nav ul li{
+          list-style-type: none;
+          width:100%;
+          background-color: #131020;
+          text-align: center;
+         
+          
+          
+      }
+li a     {   
+       text-decoration: none;
+       color:#E5EFC1;
+       font-family: 'Coves Bold', sans-serif;
+       font-size:1em;
+       display:block;
+       text-align:center;
+       }
+   
+.grid {
+      display:grid;
+      grid-template-columns: 1fr;
+     
+}
+
+.heading { font-family: 'Pacifico', cursive;
+           font-size: 6em;
+           font-weight:500;
+           position:relative;
+           left:45px;
+           grid-row:1;
+           grid-column: 1;
+           margin:auto;
+           
+}
+.paragraph { position: relative;
+             left:45px;;
+             max-width:250px;
+             max-height:200px;
+             grid-row:2;
+             grid-column: 1;
+             text-align: center;
+             
+}
+
+.img{ width: 100%;
+}
+footer {
+    text-align: center;
+}
+    
+.background p{
+        font-size:1.5em;
+        
+     
+    font-family: 'Pacifico', cursive;
+    color:#E5EFC1;
+    position:absolute;
+    margin:auto;
+    
+    left:40%;
+    transform: translate(-30%, 30%);
+} 
+    p{
+        font-family: 'Coves', sans-serif;
+    }          
+.gallery{
+        margin:10px;
+    }
+.text {
+  color: black;
+  text-align: center;
+  font-family: 'Coves Bold', sans-serif;
+  font-size: 100%;
+ 
+}  
+.astral {
+    width:80%;
+    border-radius:10%;
+    position: relative;
+    left:7%;
+    top:10%;
+    
+    
+    margin:15px;
+    
+  
+}
+.astral-btn{
+    color:#E5EFC1;
+    background-color: #131020;
+    border:none;
+    padding:15px;
+    position:relative;
+    top:20%;
+    left:33%;
+    border-radius:5px;
+    text-decoration: none;
+    }
+   
+    button a:visited{
+        color:#E5EFC1;
+        text-decoration: none;
+    }
+    button a{ color:#E5EFC1;
+        text-decoration: none;
+    }
+.titlepr{
+        margin:5%;
+    }
+.project-title{
+        text-align: center;
+        font-family: 'Coves Bold', sans-serif;
+    }
+.description{
+    text-align: justify;
+        
+    } 
+.redesign-btn{
+    background-color: #131020;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    position: relative;
+    left:22%;
+    top:20%;
+    bottom: -15%;
+   
+    }    
+.sprite-btn{
+        margin-top:5px;
+    
+    }  
+ .boat-btn{
+    background-color: #131020;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    position: relative;
+    left:5%;
+    top:20%;
+     bottom:-22%;
+
+}
+.boat-btn2{
+    background-color: #131020;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    position: relative;
+    left:15%;
+    top:10%;
+
+}
+    .video-btn{
+        position: relative;
+    left:20%;
+    top:20%;
+        
+    }
+    
+.text a{
+        font-family: 'Coves Bold', sans-serif;
+        color:black;
+        text-decoration: none;
+    }
+
+.gif{
+        width:80%;
+        margin-top:5px;
+        margin-left:5px;
+    }      
+ .teaser-btn{
+    background-color: #131020;
+    border:none;
+    padding:5px;
+    border-radius:5px;
+    position: relative;
+    left:10%;
+    top:20%;
+
+}   
+.pers-text{
+        text-align: center;
+    }  
+.touch{
+     font-size: 2em;
+     text-align: center;
+     font-family: 'pacifico',cursive;
+     position:absolute;
+     left:17%;
+     top:20%;
+    }   
+.logos{
+        width: 25%;
+        margin:5px;
+        position: relative;
+        left:4%;
+    }
+
+.logo-wrapper {
+    position: absolute;
+    left: 7%;
+    top: 40%;
+}
+footer {
+    text-align: center;
+    position:relative;
+    bottom:0;
+    
+    padding:5px;
+    
+    
+    
+}
+    .footer-contact{
+        position: fixed;
+        bottom: 0;
+        left:23.5%;
+    } 
+ 
+.who{
+        font-size: 3.5em;
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+    }
+.lorem{
+        text-align: justify;
+        margin:50px;
+    }    
+.me-img2{width:70%;
+         border-radius:100%;
+         margin:50px;
+        
+    }  
+    .skills-2{
+         font-size:2em;
+         font-family: 'Pacifico', cursive;
+         margin-left:8px;
+         text-align: center;
+    
+    }
+    .logos-2{
+        width:25%;
+        margin:20px;
+        position: relative;
+        left:14%;
+    }
+    .logo-js{
+        width:37%;
+        margin-left:0;
+    }
+ .name{color:white;
+        position: absolute;
+        top:90%;
+        left: 30%;
+        font-size: 2em;
+    }
+    h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   border-radius: 15%;
+}   
+ .previous{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:absolute;
+        bottom:3%;
+        left:5%;
+    } 
+    .next{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:absolute;
+        bottom:3%;
+        right:5%;
+    } 
+  .previous-teaser{
+        padding:8px 10px;
+        background-color: #131020;
+        color:white;
+        position:relative;
+        bottom:5%;
+        left:5%;
+    }
+.next-teaser{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:relative;
+        bottom:5%;
+        left:70%;
+        right: 5%;
+    } 
+    .hidden{
+        display: none;
+    }
+    .round{
+        border-radius: 50%;
+    } 
+    .personas{
+        position: relative;
+        left:5%;
+        margin-left: 7px;;
+    } 
+    .description{
+    font-family: 'Coves Light', sans-serif;
+    
+}
+.bg-hands{
+        background-image: url("img/onehand2.png"), url("img/secongh2.png");
+        background-repeat: no-repeat;
+        background-position: left bottom, right top;
+        background-size:50% ;
+    }
+
+}
+
+
+
+
+@media all and (min-width:760px){  /*Here starts big screen*/
+
+.nav { background-color:#131020;
+       
+      
+}
+     
+nav ul{max-width: inherit;
+       margin:auto;
+       grid-template-columns: repeat(4, 1fr);
+       text-align: center;
+       padding:10px;
+       
+}
+li{ 
+    display:inline;
+    list-style-type: none;
+    margin: 50px 50px;
+    text-align: center;
+    
+    
+}
+li a {    
+       text-decoration: none;
+       color:#E5EFC1;
+       font-family: 'Coves Bold', sans-serif;
+       font-size:1.5em;
+       display: inline-block;
+       
+       
+}
+li:hover  a{color:#C8FF00;
+             background-color: gray;
+             border-radius: 10px;
+             transition:all 1s;
+             
+            
+}
+li:active a{color:#E5EFC1;
+              
+}
+
+li:visited a{ color:#E5EFC1;
+}
+
+label {display: none;
+}
+
+#toggle {display:none;
+}
+
+.grid { display:grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 10px;
+       
+}
+
+    
+.hello{ position:relative;
+        top:-200px;
+        left: 100px;
+        
+        display:grid;
+        width:300px;
+        height:300px;
+        grid-row:1;
+        grid-column:1;
+      }
+.heading { 
+           font-family: 'Pacifico', cursive;
+           font-size: 13em;
+           
+}
+.paragraph { position: relative;
+             left:115px;
+             max-width:500px;
+             max-height:200px;
+             grid-row:2;
+             grid-column: 1;
+             text-align: center;
+}
+
+p   {  font-size: 1.75em;
+       font-family:"coves", sans-serif;
+}
+.image{ max-width:500px;
+        max-height:300px;
+        grid-row:2;
+        grid-column: 1;
+}
+.img{ width: 100%;
+     position:relative;
+     left:750px;
+     bottom:300px;
+    
+}
+    /*PORTFOLIO MEDIA QUERY*/
+.background p{
+    font-family: 'Pacifico', cursive;
+    color:#E5EFC1;
+    position:absolute;
+    margin:auto;
+    top:10%;
+    left:50%;
+    transform: translate(-50%, 50%);
+}  
+   
+    .container {
+    position:relative;
+    padding:50 6px;
+    float: left;
+    width: 25%;
+   
+    
+}
+    .gallery{
+        margin:10px;
+       
+    }  
+   .overlay {
+  border-radius: 10%; 
+  
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  height: 95%;
+  width: 95%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: url(img/low.png);
+  
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  text-align: center;
+  font-family: 'Coves Bold', sans-serif;
+  font-size: 200%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+    .text a{
+        color:white;
+        text-decoration: none;
+    }
+ /*pages*/
+.astral {
+    width:80%;
+    border-radius:10%;
+    position:relative;
+   /* top:50%;*/
+    left:10%;
+    margin:5%;
+    
+}
+.titlepr{
+    position:absolute;
+    top:-2%;
+    left:50%;
+    margin:5%;
+    
+        
+}
+.project-title{
+        text-align: center;
+        font-family: 'Coves Bold', sans-serif;
+        position: relative;
+        left:10%;
+        
+}
+.astral-btn{
+    
+    background-color: #131020;
+    border:none;
+    padding:15px;
+    position:relative;
+    top:20%;
+    left:50%;
+    border-radius:5px;   
+    }
+.redesign-btn{
+    background-color: #131020;
+    border:none;
+    padding:15px;
+    border-radius:5px;
+    position: relative;
+    left:37%;
+    top:20%;
+
+        
+    } 
+.teaser-btn{
+    background-color: #131020;
+    border:none;
+    padding:15px;
+    border-radius:5px;
+    position: relative;
+    left:30%;
+    top:20%;
+
+        
+}  
+.boat-btn{
+    
+    background-color: #131020;
+    border:none;
+    padding:15px;
+    border-radius:5px;
+    position: relative;
+    left:35%;
+    top:20%;
+
+}
+    .previous{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:absolute;
+        bottom:2%;
+        left:5%;
+    } 
+    .next{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:absolute;
+        bottom:2%;
+        right:5%;
+    } 
+  .previous-teaser{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:absolute;
+        bottom:-35%;
+        left:5%;
+    }
+.next-teaser{
+        padding:8px 16px;
+        background-color: #131020;
+        color:white;
+        position:relative;
+        bottom:-30%;
+        left:90%;
+    } 
+.personas{
+        border-radius:15%;
+        width:100%;
+        margin-top: 80px;
+        opacity: 1;
+	    filter: alpha;
+        position: relative;
+        left:0%;
+    }   
+.personas:hover {
+    opacity: 0.3;
+	filter: alpha;
+    
+    }
+.pers-text{
+        display: none;
+        position:absolute;
+        top:75%;
+        left:10%;
+        
+    }
+  
+.responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+.background p{
+    margin:auto;
+    position:absolute;
+    font-size: 2.5em;
+    top:-20%;
+    left:50%;
+    transform: translate(-50%, 50%);
+}  
+a{
+        color:white;
+        text-decoration: none;
+    }
+.bg-hands{
+        background-image: url("img/onehand2.png"), url("img/secongh2.png");
+        background-repeat: no-repeat;
+        background-position: left bottom, right top;
+        background-size:30% ;
+    }   
+.touch{
+     font-size: 3.2em;
+     text-align: center;
+     font-family: 'pacifico',cursive;
+        position:absolute;
+        left:37%;
+        top:10%;
+    }   
+.logos{
+        width: 25%;
+        margin:15px;
+    }
+.logo-wrapper{
+        width:500px;
+        
+        overflow: hidden;
+        position: absolute;
+        left:35%;
+        top:40%;
+    }
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    
+}
+.about-header{
+    width:500px;
+    position: relative;
+    left:10%;
+       
+    } 
+.who{
+        font-size: 3.5em;
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+    }
+.lorem{
+        text-align: justify;
+    }
+.me-img{
+        position:absolute;
+        left:60%;
+        top:10%;
+    }
+.me-img2{width:70%;
+         border-radius:100%;
+        
+    }
+    
+    
+.name{  display: none;
+        /*color:white;
+        position: absolute;
+        top:80%;
+        left: 23%;
+        font-size: 2em;*/
+    }
+h2 span { 
+   display: none;
+}
+.skills{
+    width:200px;
+    position:relative;
+    left:10%;
+    top:10%;
+    font-family: 'Pacifico', cursive;
+    
+        
+    }
+.skills-logo{
+        width:600px;
+    }
+.logos-2{
+        width:10%;
+        margin:35px;
+        position: relative;
+        left:10%;
+    
+    
+    } 
+.logos-css{
+        width:8%;
+        margin:40px;
+       
+   
+    }
+    .logo-js{
+        width:12%;
+        margin:35px;
+    }
+.size{
+        width:10%;
+    }
+.description{
+       position: relative;
+       left:10%;
+       font-family: 'Coves Light', sans-serif;
+    }
+    .round{
+        display: none;
+    }   
+    .footer-contact{
+        position: fixed;
+        bottom: 0;
+        left:44%;
+    }   
+    
+  
+}
+.helloAnim{
+    animation: appear 1s 2;
+}
+@keyframes appear{
+    25%{ transform: translateX(10px) translateZ(-10px);}
+
+}
+footer {
+    text-align: center;
+    position:relative;
+    bottom:0;
+    
+    
+    
+    
+}
+/*PORTFOLIO PAGE*/
+
+.background {
+    background-image: url("img/low.png");
+    height:25%;
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    text-align: center;
+}
+
+div.gallery img {
+             display:block;
+             border-radius:10%;
+             width:95%;
+             margin-left:2.5%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@font-face { font-family: "Coves Light";
+                src: url("fonts/Coves-Light.otf") format("opentype");
+                 
+                 font-weight: normal;
+                 font-style: normal;
+} 
+
+
+@font-face { font-family: "Coves Bold";
+                 src: url("fonts/Coves-Bold.otf") format("opentype");
+                 
+                 font-weight: bold;
+                 
+}
+
+ 
+
